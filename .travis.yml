@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: QWixMqB6n6YYhBGFrKgQ8ms6JPDnGvVxAjr+tyF3uPGfVRBd10WaL7nxvhajuMhwAPC+wjddMx2AI+qV8HZdnCHxaD4enQAc+J7lCdAQwVeWrGa43fNadlmbZcJRF0dPgO55P2tTLsYGMJZaArK3y5dCAD4H4aikEsuaEm/ZUqI630QCxikRhcXkt9Y7F2xQFpAIu4V5/4nMNeuiysMrvXWKzvg/D+9kjmR7pCXWuXAvF3HtrDgNcGn2X6HQckDGYdYUutZ7Ii7AogJTFjiH+IG1nAgo9A5LCEKgJmnKr+GeEUc7F02BHXgRNfdZ8Apx94OhhbiFtUqjgqNReGyhYE95qkdwCsPLn2CNDf+dVs/hvdpRT+MU5AQVxP6FarpPxtZQpvhUaQ9A6KIklzUWMrREBltY4H+NOuWPjyo+ZqU091CyWwpW6c6gAFr6Neu59oSqgTRaThanEU0PJRC0Heyzx275VsNzO7n0WfDphigZ1vOe63f43t42X9/sPAij8hWWvq3q5HZ3fE6Ypei5Tq99aSnTs94kyE72lUJZW0II5jXjycrRKvpN9AuDqqeam2dDthjD3YQGqoglPAi+05frsOxIIBT045SgAwpAUXO9GEpau5O7Gn6egH7Ofz+7uV2HLDTArfNNu/uIRAgXYKaon+F6smMp64MNyAGSvyA=
+  app: polar-lake-68578
+  on:
+    repo: KennethJMiddleton/node-shopping-list-integration-tests
+    branch: tests-for-recipes
